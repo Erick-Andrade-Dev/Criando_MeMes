@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerando fotos</title>
+    <link rel="stylesheet" href="Projeto3.css">
+</head>
+<body>
+    <header>
+        <H1>Criando MeMes  😎</H1>
+        
+        <strong>Texto:</strong>  
+        <input type="text" name='texto' id="container-texto" placeholder="Digite aqui!"  maxlength="37"> 
+        <br>
+        <br>
+        <strong>Foto:</strong>    
+        <input type="file" name="escolher-arquivos" id="container-arquivos" accept="image/*">
+    </header>
+
+        <main id="main">            
+            <div id="image">                 
+                <img id="container-img">
+                <p id="texto"></p>
+            </div>
+        </main>           
+              
+        <section>
+          <p><strong>Estilos customizados:</strong></p>
+          
+          <div class="buttons">              
+              <button id="red">Vermelho</button>
+              <button id="yellow">Amarelo</button>
+              <button id="pink">Rosa</button>             
+          </div>                     
+        </section>
+        
+        <footer class="memesOk">
+            <img src="/imgs/bozo.jpg" alt="" class="memesprontos" id="img1">
+            <img src="/imgs/dilmenta.jpg" alt="" class="memesprontos" id="img2">
+            <img src="/imgs/mrbean.jpg" alt="" class="memesprontos" id="img3">
+            <img src="/imgs/cortela.jpg" alt="" class="memesprontos" id="img4">
+        </footer>
+
+        <script src="Projeto3.js"></script>
+</body>
+</html>
